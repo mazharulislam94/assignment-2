@@ -1,0 +1,275 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 70px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #6c6b6b;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.btn-custom {
+  background: #21b573;
+  border-radius: 33px;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin-top: -8px;
+  padding: 12px 28px;
+  -webkit-border-radius: 33px;
+  -moz-border-radius: 33px;
+  -ms-border-radius: 33px;
+  -o-border-radius: 33px;
+}
+
+.btn-custom:hover {
+  background: #2adf8d;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+.section-heading {
+  margin-bottom: 70px;
+}
+
+/* navbar  */
+header {
+  background: #f0fff0;
+}
+.navbar-brand img {
+  width: 198.07px;
+  height: 59px;
+  left: 212px;
+  margin-top: 30px;
+}
+
+.navbar-light .navbar-nav li.nav-item {
+  margin-right: 25px;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  padding: 5px;
+}
+
+/* hero-section */
+.hero {
+  min-height: 576px;
+  background: #f0fff0;
+  padding-top: 90px;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.hero p {
+  margin-bottom: 30px;
+}
+
+.hero-content span {
+  color: #21b573;
+}
+
+.hero-content h4 {
+  color: #fd511a;
+}
+
+/* details-section */
+.info {
+  padding: 100px 0;
+}
+.info img {
+  width: 66px;
+  height: 85px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.details {
+  text-align: center;
+  width: 270px;
+  height: 270px;
+  background: #f8fffb;
+  border-radius: 10px;
+}
+
+.details:hover {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.details p {
+  line-height: 24px;
+}
+
+/* courses section */
+.courses {
+  background: #f8f8f8;
+  padding: 100px 0;
+}
+
+.courses h2 {
+  text-align: center;
+}
+
+.card {
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+}
+
+.card button.btn-custom {
+  padding: 8px 28px;
+  margin-top: 10px;
+  margin-left: -5px;
+}
+
+.card-footer img {
+  width: 24px;
+  height: 24px;
+}
+
+/* testimonial section */
+.testimonial {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.testimonial img {
+  width: 120px;
+  height: 120px;
+}
+
+.testimonial p {
+  line-height: 30px;
+  color: #000000;
+  text-align: start;
+  padding-right: 62px;
+}
+
+.testimonial .row {
+  margin: 0 auto;
+}
+
+/* FAQ section */
+.faq {
+  background: #f8f8f8;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.faq .card {
+  margin-bottom: 20px;
+}
+
+.faq .card-header {
+  background: #fff;
+}
+
+.faq button.btn.btn-link.collapsed {
+  color: #000;
+  text-decoration: none;
+}
+
+.faq button.btn.btn-link.collapsed:hover {
+  color: #21b573;
+}
+/* footer */
+footer {
+  background: #282531;
+  color: #fff;
+  padding-top: 70px;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+}
+
+footer h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+footer ul {
+  font-weight: 400;
+}
+
+footer ul li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+footer ul li a:hover {
+  color: #fff;
+}
+
+.copyright-text {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 30px;
+  color: #cdcdcd;
+}
+
+/* media query */
+@media only screen and (max-width: 991px) {
+  .info {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .testimonial p {
+    text-align: center;
+  }
+}
